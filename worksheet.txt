@@ -1,20 +1,22 @@
 Q1: What are the 3 commands to transfer something from your local codebase to GitHub?
-
+1. git add "filename" or .
+2. git commit
+3. git push
 
 Q2: What does 'git clone' do? 
-
+'git clone' clones an existing repostitory and puts the clone in a new directory on your local machine.
 
 Q3: What does 'git status' do?
-
+'git status' displays  information about the directory you are working on and how it compares to the origin master branch.
 
 Q4: What does "Your branch is up to date with 'origin/master'" tell you?
-
+This means that no changes have been made on the local branch which you are currently working on compared to the origin/master branch.
 
 Q5: You’ve made a change to a file in GitHub, the one on the browser, and now you run 'git status' on the terminal. It still says "Up to Date" despite the change. What command do you need to enter first?
-
+git fetch
 
 Q6: You’ve just ran the 'rm' command and deleted an important file. All your code is deleted, not including the local repository. You only ran 'git add' and 'git commit' before the rogue command. Is your code saved?
-
+You did not push the code to github so the changes weren't pushed to the central repo, they were only made in your local repository.
 
 Q7: Your computer crashes and all your code is deleted, including the local repository. You only ran 'git add' and 'git commit'. Is your code saved?
-
+No, the code was not saved in the central repo, you had to 'git push' in order to save it on github.
