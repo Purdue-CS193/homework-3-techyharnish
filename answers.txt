@@ -2,7 +2,9 @@ Part 1: Write your message here from GitHub
 Hello Harnish, How are you?
 Task 1: 
 // Under this line, describe what the command 'git fetch' does
-
+The "git fetch" command downloads commits and files from a remote repository into our local repo.
 Task 2:
 // Under this line, describe the difference between Git and GitHub
+Git is just one repository-your local repository, but GitHub is a central repository comprising all these 
+local repositories.
 
